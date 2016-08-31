@@ -14,7 +14,7 @@ ALLOWED_COMMANDS = ['wlan', 'eth', 'vol', 'bat', 'date', 'vpn', 'spotify']
 
 def send_command(command):
     s = socket.socket(socket.AF_UNIX, socket.SOCK_DGRAM)
-    s.connect('/dev/shm/lemonbarpy.socket')
+    s.connect('/dev/shm/dwmbarpy.socket')
     s.send('CMD{0}'.format(command).encode('utf-8'))
     s.close()
 

@@ -49,10 +49,8 @@ class KeyboardThread(Thread):
 
 
 def main():
-    spotify_thread = SpotifyThread()
     keyboard_thread = KeyboardThread()
 
-    spotify_thread.start()
     keyboard_thread.start()
 
 
