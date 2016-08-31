@@ -200,7 +200,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_F3,     spawn,         {.v = ethbarcmd } },
 	{ MODKEY|ShiftMask,             XK_F4,     spawn,         {.v = batbarcmd } },
 	{ MODKEY|ShiftMask,             XK_F5,     spawn,         {.v = datebarcmd } },
-	{ MODKEY|ShiftMask,             XK_F6,     spawn,         {.v = touchpad } },
+	{ MODKEY          ,             XK_F6,     spawn,         {.v = touchpad } },
     /*
 	{ MODKEY,                       XK_a,      moveresize,     {.v = "-10x 0y 0w 0h" } },
 	{ MODKEY,                       XK_d,      moveresize,     {.v = "10x 0y 0w 0h" } },
