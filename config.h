@@ -45,6 +45,7 @@ static const Rule rules[] = {
 	{ "Google-chrome",    "crx_nloahgegolkkjdbbdgiknfglcmcimakb", NULL,                            1 << 7, 0, -1 },
     { "Virt-manager",     "virt-manager",                         "win7_boos_client auf QEMU/KVM", 1 << 3, 0, -1},
     { "Virt-manager",     "virt-manager",                         "boos_win7 auf QEMU/KVM",        1 << 4, 0, -1},
+    { "Vivaldi-stable",   NULL,                                   NULL,                            1 << 1, 0, -1},
 };
 
 /* layout(s) */
